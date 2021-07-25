@@ -13,6 +13,12 @@ Data Source: city_data.csv, ride_data.csv, PyBer_ride_data.csv
 Software: Conda 4.10.3, Python 3.7.6, Jupyter Notebook 6.3.0, Pandas, and Matplotlib
 
 # Results
+- Ride-Sharing Summary DataFrame by City Type: Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
+![PyBer_fare_summary.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png)
+
+- Multiple-line Graph of Total Weekly Fares for Each City Type: Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
+![PyBer_fare_summary.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png)
+
 Other Analysis Graphs:
 ![Fig1.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig1.png)
 ![Fig2.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig2.png)
@@ -21,12 +27,6 @@ Other Analysis Graphs:
 ![Fig5.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig5.png)
 ![Fig6.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig6.png)
 ![Fig7.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig7.png)
-
-- Ride-Sharing Summary DataFrame by City Type: Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
-![PyBer Summary DataFrame.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer Summary DataFrame.png)
-
-- Multiple-line Graph of Total Weekly Fares for Each City Type: Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
-![PyBer_fare_summary.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png)
 
 Based on the above results, the differences in ride-sharing data among the different city types includes:
 - Urban cities have the highest ridership demand while rural cities have the least.
@@ -44,8 +44,6 @@ There is an another opportunity for further analysis to determine other factors 
 Overall, PyBer ridersharing services significantly differs in rural, suruban, and urban cities given the number of rides, drivers, and fares. Data supports that there is higher usage of PyBer ridesharing services in urban cities.
 
 # Summary
-Deliverable 3: Use your repository README file to write your analysis of how to address any disparities in the ride-sharing data among the city types.
-
 Based on the results, three business recommendations can be made for PyBer as follows:
 1.
 2.
