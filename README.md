@@ -1,6 +1,6 @@
 # PyBer_Analysis
 
-An analysis of how to address disparities in ride-sharing data among city types.
+An analysis of disparities in ride-sharing data among city types.
 
 # Overview
 A data analyst at PyBer, a ride-sharing app company valued at $2.3 billion, was given the following tasks:
@@ -13,17 +13,13 @@ Data Source: city_data.csv, ride_data.csv, PyBer_ride_data.csv
 Software: Conda 4.10.3, Python 3.7.6, Jupyter Notebook 6.3.0, Pandas, and Matplotlib
 
 # Results
-- Ride-Sharing Summary DataFrame by City Type: Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
-<<<<<<< HEAD
-![PyBer_summary_dataframe.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_summary_dataframe.png)
-=======
-![PyBer Summary DataFrame](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer Summary DataFrame)
->>>>>>> 54abeac798397d3975de543ec8cc4daadc28d16c
+- The following Ride-Sharing Summary DataFrame by City Type was created using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns. The total number of rides, total number of drivers, and total fares for each city type was generated. The average fare per ride and average fare per driver for each city type was also calculated. 
+![PyBer_sum_df.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
 
-- Multiple-line Graph of Total Weekly Fares for Each City Type: Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
+- The following Multiple-line Graph of Total Weekly Fares for Each City Type was created using the Pandas pivot() and andresample() functions.
 ![PyBer_fare_summary.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png)
 
-Other Analysis Graphs:
+Other Analysis Graphs generated from the ride-sharing data that supports the summary and line chart above:
 ![Fig1.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig1.png)
 ![Fig2.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig2.png)
 ![Fig3.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig3.png)
