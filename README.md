@@ -14,7 +14,7 @@ Software: Conda 4.10.3, Python 3.7.6, Jupyter Notebook 6.3.0, Pandas, and Matplo
 
 # Results
 - Ride-Sharing Summary DataFrame by City Type: Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
-![PyBer_Summary_DataFrame](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_Summary_DataFrame)
+![PyBer_summary_dataframe.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_summary_dataframe.png)
 
 - Multiple-line Graph of Total Weekly Fares for Each City Type: Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
 ![PyBer_fare_summary.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png)
