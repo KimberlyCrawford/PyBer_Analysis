@@ -19,6 +19,19 @@ Software: Conda 4.10.3, Python 3.7.6, Jupyter Notebook 6.3.0, Pandas, and Matplo
 - The following Multiple-line Graph of Total Weekly Fares for Each City Type was created using the Pandas pivot() and andresample() functions.
 ![PyBer_fare_summary.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png)
 
+Based on the above results, there are significant differences in ride-sharing data among the different city types:
+- The total number of rides by city type was 68.4% (Urban), 6.3% (Suburban), and 5.3% (Rural).
+- The total drivers by city type was 80.9% (Urban), 16.5% (Suburban), and 2.6% (Rural)
+- The total fares by city type was 62.7% (Urban), 30.5% (Suburban), and 6.8% (Rural).
+
+Whereas, the opposite can be said for the average fares per ride and driver. The higher fares in rural and suburban cities may be contributed to the distance traveled and fuel costs.
+
+# Summary
+Based on the results, three business recommendations can be made for PyBer as follows:
+1. Additional research should be conducted to identified more factors that contribute to the higher fares in rural cities compared to suburban and urban. Drivers in rural cities are earning more than drivers in urban cities. However; the additional time, vehicle wear, and fuel may be the difference. 
+2. A stronger marketing campaign should be put in place at the end of February as there is a signifant drop in fares right after Valentine's Day in all city types.
+3. PyBer might consider eliminating the rural service as it does not appear too profitable. If it does not eliminate service to rural cities, it might consider offering more specialized services with higher fare rates.
+
 Other Analysis Graphs generated from the ride-sharing data that supports the summary and line chart above:
 ![Fig1.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig1.png)
 ![Fig2.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig2.png)
@@ -27,24 +40,3 @@ Other Analysis Graphs generated from the ride-sharing data that supports the sum
 ![Fig5.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig5.png)
 ![Fig6.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig6.png)
 ![Fig7.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig7.png)
-
-Based on the above results, the differences in ride-sharing data among the different city types includes:
-- Urban cities have the highest ridership demand while rural cities have the least.
-- Urban cities have 4x+ more drivers than suburban cities.
-- Suburban cities have 6x + drivers than rural with almost 4.5x the revenue.
-- Rural cities have the highest average fare per ride and driver.
-- The summary data shows a relationship in which fare revenue is higher by city type when there is a larger ratio of drivers to rides.
-
-There is a larger use of PyBer ridesharing in urban cities.
-There are more drivers in urban cities than rural cities.
-As a result, the majority of PyBer's revenue occurs in urban cities.
-On the other hand, the costs for using PyBer is greater among riders in rural cities than urban cities. This could discourage potential riders from using PyBer given the high average fare per ride.
-Drivers in rural cities are earning more than drivers in urban cities. This could discourage discourage potential drivers from working with PyBer given the low average fare per driver.
-There is an another opportunity for further analysis to determine other factors that are contributing to the high ride costs in rural cities and low driver fares in urban cities. Perhaps, travel distance is a key factor.
-Overall, PyBer ridersharing services significantly differs in rural, suruban, and urban cities given the number of rides, drivers, and fares. Data supports that there is higher usage of PyBer ridesharing services in urban cities.
-
-# Summary
-Based on the results, three business recommendations can be made for PyBer as follows:
-1.
-2.
-3.
