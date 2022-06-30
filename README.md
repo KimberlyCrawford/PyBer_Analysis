@@ -40,3 +40,5 @@ Other Analysis Graphs generated from the ride-sharing data that supports the sum
 ![Fig5.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig5.png)
 ![Fig6.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig6.png)
 ![Fig7.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/analysis/Fig7.png)
+
+#### Module 5, Data Analysis & Visualization Certificate Program, UT Austin McCombs School of Business, 2021.
